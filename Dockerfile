@@ -3,7 +3,7 @@ FROM node:13
 
 WORKDIR /usr/src/app
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY .nginx.conf /etc/nginx/nginx.conf
 
 COPY . .
 
